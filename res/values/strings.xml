@@ -8,4 +8,6 @@
 	<!--4. creamos el recurso hello -->
 	<string name="hello">Hola, este es nuestro recurso creado</string>
     <!-- Ahora nos vamos a la Activity de nuevo ButtonsAndTextFieldsActivity.java -->
+    <string name="game">Juego</string>
+    <string name="end_game">Finalizar</string>
 </resources>

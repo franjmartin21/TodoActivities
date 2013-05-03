@@ -37,7 +37,7 @@
         -->
 
 
-        <!-- Para lanzar otra activity de inicio -->
+        <!-- Para lanzar otra activity de inicio 
         <activity
             android:name="com.fran.buttonsAndTextFields.ButtonsAndTextFieldsActivity"
             android:alwaysRetainTaskState="true"
@@ -49,6 +49,28 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        -->
+        
+        <activity
+            android:name="com.fran.launch_activity.NavegacionEntreActivities"
+            android:alwaysRetainTaskState="true"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="unspecified" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 	android:name="com.fran.launch_activity.PlayGame"
+            		android:label="@string/game">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            
         </activity>
     </application>
 
