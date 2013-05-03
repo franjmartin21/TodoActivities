@@ -4,5 +4,8 @@
     <string name="app_name">TodoActivities</string>
     <string name="menu_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="title_activity_buttons_and_text_fields">ButtonsAndTextFieldsActivity</string>
+	<!--4. creamos el recurso hello -->
+	<string name="hello">Hola, este es nuestro recurso creado</string>
+    <!-- Ahora nos vamos a la Activity de nuevo ButtonsAndTextFieldsActivity.java -->
 </resources>

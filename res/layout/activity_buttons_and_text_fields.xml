@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ButtonsAndTextFieldsActivity" >
+
+    
+    <!--1. Añadimos un botón, sus propiedades se explican suficientemente
+    bien solas, ahora vamos a cargar el layout en la Activity, ve a ButtonsAndTextFieldsActivity.java--> 
+    <Button android:id="@+id/trigger"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Press this button"></Button>
+    
+    <!--3. Creamos un texto para mostrar el resultado cuando pulsemos el botón 
+    	- como vemos este "TextView" carga su texto de un recurso, que se
+    	va a llamar hello, vamos a crear ese recurso yendo a res/values/string-->
+    <TextView android:id="@+id/hello_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+</LinearLayout>

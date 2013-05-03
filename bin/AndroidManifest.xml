@@ -13,8 +13,9 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        
-        <!-- añadido launchmode="singleInstance" para asegurar que 
+
+        <!--
+        añadido launchmode="singleInstance" para asegurar que 
         solo una instancia de esta activity corre en el dispositivo
         Para limitar aún más podríamos declarar "single" task, lo cual
         limitara todas las activities de la aplicacion a una solo instancia
@@ -25,13 +26,24 @@
         android:screenOrientation="landscape" para definir como se vera la 
         aplicación "landscape" en horizontal, "portrait" siempre en vertical
         ...(hay más opciones para que cambie dependiendo de la orientacion ... etc)
-         -->
+        -->
+        <!--
         <activity
             android:name="com.example.todoactivities.MainActivity"
             android:label="@string/app_name" 
             android:launchMode="singleInstance"
             android:alwaysRetainTaskState="true"
             android:screenOrientation="landscape">
+        -->
+
+
+        <!-- Para lanzar otra activity de inicio -->
+        <activity
+            android:name="com.fran.buttonsAndTextFields.ButtonsAndTextFieldsActivity"
+            android:alwaysRetainTaskState="true"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance"
+            android:screenOrientation="unspecified" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
