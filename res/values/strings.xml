@@ -5,9 +5,12 @@
     <string name="menu_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_buttons_and_text_fields">ButtonsAndTextFieldsActivity</string>
-	<!--4. creamos el recurso hello -->
-	<string name="hello">Hola, este es nuestro recurso creado</string>
+    <!-- 4. creamos el recurso hello -->
+    <string name="hello">Hola, este es nuestro recurso creado</string>
     <!-- Ahora nos vamos a la Activity de nuevo ButtonsAndTextFieldsActivity.java -->
     <string name="game">Juego</string>
     <string name="end_game">Finalizar</string>
+    <string name="title_activity_navegacion_entre_activities_con_pars">NavegacionEntreActivitiesConParsActivity</string>
+    <string name="title_activity_play_game_parameters">PlayGameParametersActivity</string>
+
 </resources>
